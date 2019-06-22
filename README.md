@@ -66,29 +66,7 @@ All complete, working Java code used in your implementation.
 All data needed by your project to run (or a simple, publicly accessible link thereto).
 All testing code utilized to observe the correctness of your code.
 
-## Work Breakdown
-* Eric Li:
-	- Most similar search function: look for 4 cases to find the most similar molecule given an input molecule file
-	- Built the data structure framework (layered HashMap)
-	- Made a class for molecular formula as a key to the first layer of the HashMap
-* David Payne:
-	- GUI - Built graphical user interface (GUI) and linked it with function calls addMolecule, findMolecule, and databaseStatistics. Wrote the database statistics function in isodatabase
-	- Remote server - Set up a remote server for the database that can be accessed via port forwarding. As part of this, wrote logic in isodatabase that prioritizes a local database but will fetch the remote database stored on the RPi as a starter database
-	- Wrote test cases for main and put in formatting for test cases
-* Andrew Stoycos: 
-	- Wrote command line interface 
-	- Researched and implemented solution for Isomorphism problem, i.e same_graph class and all its methods 
-	- Implemented add_Molecule() Method 
-	- Implemented find_Molecule() Method
-	- Researched and implemented findSubgraph() Method 
-	- Wrote a bunch of Error catching constraints 
-* Jacob Zweig: 
-	- Worked on setting up a web-app to add and search for molecules (not implemented in final program)
-    - Duplicate-handling in addMolecule()
-    - Assisted in findCompound() searching by structure
-* Matthew Hormis: 
-	- Worked on setting up a web-app to add and search for molecules (not implemented in final program)
-    - Assisted in findMostSimilar() when dealing with unknown molecules
+
 # Jira links
 * Jira: https://agile.bu.edu/jira/projects/GROUP8/summary
 * Crucible: https://agile.bu.edu/crucible/cru/GROUP8-5
